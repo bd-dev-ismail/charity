@@ -1,10 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Lato', sans-serif;
-    
+    height: 100%;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 32px;
+
+}
+p{
+    color: #707070;
 }
 .hero-image{
     width: 100vw;
@@ -23,8 +41,6 @@ body{
     color: #fff;
 }
 .hero-title{
-    font-size: 60px;
-    font-weight: bold;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -40,4 +56,59 @@ body{
     font-size: 20px;
     color: #fff;
     margin: 30px 0;
+}
+/*End Hero Section Style */
+#donate-container{
+    margin: 150px 0;
+
+}
+.donate-description{
+    text-align: center;
+}
+.donate-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0;
+    color: #707070;
+}
+.box1{
+    flex: 1 1 auto;
+
+}
+.box2 {
+    flex: 1 1 auto;
+}
+.box3 {
+    flex: 1 1 auto;
+    width: 20px;
+    height: 70px;
+    border: 1px solid #fc5239;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: #fc5239;
+}
+.box4{
+    flex: 1 1 auto;
+}
+
+.box5 {
+    flex: 1 1 auto;
+}
+.donate-amount{
+    text-align: center;
+}
+.donate-input input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 24px;
+}
+input:focus,
+select:focus {
+    outline: none;
 }
