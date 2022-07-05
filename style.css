@@ -159,3 +159,13 @@ select:focus {
     border-radius: 10px;
 }
 /*End Plan Style */
+footer{
+    height: 220px;
+    background-color: #000;
+    text-align: center;
+    padding: 30px;
+}
+.footer-description h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
