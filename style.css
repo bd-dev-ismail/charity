@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+.hero-image{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image:linear-gradient(rgba(24, 19, 26, 0.5), rgba(15, 14, 16, 0.5)), url(images/hero-bg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-description{
+    color: #fff;
+}
+.hero-title{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.hero-text{
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+.hero-btn{
+    padding: 15px 35px;
+    background-color: #fc5239;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 30px 0;
+}
