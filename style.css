@@ -73,15 +73,10 @@ p{
     margin: 100px 0;
     color: #707070;
 }
-.box1{
-    flex: 1 1 auto;
-
-}
-.box2 {
+.flex-box{
     flex: 1 1 auto;
 }
 .box3 {
-    flex: 1 1 auto;
     width: 20px;
     height: 70px;
     border: 1px solid #fc5239;
@@ -90,13 +85,7 @@ p{
     background-color: #e5e5e5;
     color: #fc5239;
 }
-.box4{
-    flex: 1 1 auto;
-}
 
-.box5 {
-    flex: 1 1 auto;
-}
 .donate-amount{
     text-align: center;
 }
@@ -112,3 +101,61 @@ input:focus,
 select:focus {
     outline: none;
 }
+/*End Donate Today Style*/
+.donate-plan{
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    width: 450px;
+    height: 350px;
+    box-shadow: 2px 3px 10px #888888;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.item img{
+    width: 15%;
+}
+.item-title{
+    margin: 20px 0;
+}
+#education{
+    background-color: #ff7e6b6e;
+    border-left: 5px solid #fe42ad;
+    
+}
+#food{
+    background-color: #8a00d729;
+    border-left: 5px solid #e52165;
+}
+#water{
+    background-color: #1738ff30;
+    border-left: 5px solid #fc5259;
+}
+/*End Charity Style*/
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.from{
+    margin-bottom: 20px;
+}
+.from-email {
+    padding: 15px 35px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.subscribe button{
+    border-radius: 10px;
+}
+/*End Plan Style */
