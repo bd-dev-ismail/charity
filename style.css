@@ -138,15 +138,28 @@ select:focus {
     border-left: 5px solid #fc5259;
 }
 /*End Charity Style*/
-.gallery-title{
-    text-align: center;
-}
-.gallery-box img{
-    width: 600px;
-    height: 400px;
+#gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
 }
 
+.gallery-container{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap; 
+}
+.gallery-box img{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+
+}
 /*End Gallery Style*/
+
 .subscribe{
     display: flex;
     align-items: center;
