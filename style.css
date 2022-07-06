@@ -8,6 +8,9 @@ body{
     height: 100%;
     overflow-x: hidden;
 }
+.color{
+    color: #fc5239;
+}
 h1{
     font-size: 60px;
     font-weight: bold;
@@ -56,6 +59,7 @@ p{
     font-size: 20px;
     color: #fff;
     margin: 30px 0;
+    text-transform: uppercase;
 }
 /*End Hero Section Style */
 #donate-container{
@@ -88,6 +92,7 @@ p{
 
 .donate-amount{
     text-align: center;
+    margin-top: 200px
 }
 .donate-input input {
     width: 50%;
@@ -150,7 +155,8 @@ select:focus {
     display: flex;
     max-width: 1200px;
     width: 100%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin-top: 50px; 
 }
 .gallery-box img{
     width: 400px;
@@ -188,6 +194,6 @@ footer{
     padding: 30px;
 }
 .footer-description h3{
-    color: #fff;
-    margin-bottom: 10px;
+    color: #fc5239;
+    margin: 30px 0;
 }
